@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-shopify-shop",
+  "private": true,
+  "description": "An online shop built with Gatsby & Shopify.",
+  "version": "0.1.0",
+  "author": "Faith Oyebode <oyebodefaith3@gmail.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.12.1",
+    "gatsby-background-image": "^1.6.0",
+    "gatsby-image": "^3.11.0",
+    "gatsby-optional-chaining": "^1.0.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-manifest": "^4.12.1",
+    "gatsby-plugin-offline": "^5.12.1",
+    "gatsby-plugin-react-helmet": "^5.12.1",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-styled-components": "^5.12.1",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-source-shopify": "^7.1.1",
+    "gatsby-transformer-sharp": "^4.12.1",
+    "query-string": "^7.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "shopify-buy": "^2.15.1",
+    "styled-components": "^5.3.5",
+    "styled-reset": "^4.3.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomphill/gatsby-shopify-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/tomphill/gatsby-shopify-starter/issues"
+  }
+}
