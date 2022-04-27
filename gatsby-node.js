@@ -11,7 +11,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const data = await graphql(`
+  const { data } = await graphql(`
     {
       allShopifyProduct {
         edges {
@@ -30,7 +30,7 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         shopifyId: node.shopifyId
       },
-      component: path.resolve(`.src/templates/ProductTemplate/index.js`)
+      component: path.resolve(`./src/templates/ProductTemplate/index.js`)
     })
   });
 }
